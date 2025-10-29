@@ -1,6 +1,14 @@
 @font-face {
 	font-family: "mochi-serif";
-	src: local(Copernicus), url(https://example.com);
+	src: local(Copernicus),
+		url(https://rawcdn.githack.com/marcoms/mochi-config/6aaf31e8b59ab98e9d824dd8986c803e23cc141a/fonts/mochi-med.otf);
+}
+
+@font-face {
+	font-family: "mochi-serif";
+	font-weight: bold;
+	src: local(Copernicus),
+		url(https://rawcdn.githack.com/marcoms/mochi-config/6aaf31e8b59ab98e9d824dd8986c803e23cc141a/fonts/mochi-bold.otf);
 }
 
 .memo_markdown_styles_markdown-class {
@@ -11,4 +19,3 @@
 		line-height: 1.5 !important;
 	}
 }
-
