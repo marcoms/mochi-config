@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "mochi-serif";
+	src: local(Copernicus), url(https://example.com);
+}
+
+.memo_markdown_styles_markdown-class {
+	font-family: "mochi-serif" !important;
+	font-weight: 500 !important;
+
+	.paragraph {
+		line-height: 1.5 !important;
+	}
+}
+
